@@ -1,6 +1,6 @@
 title: Eduardo Souza
-url: "https://eduardodx.net"
-baseurl: "/researcher"
+# url: "https://eduardodx.net"
+baseurl: "."
 
 markdown: kramdown
 
@@ -13,3 +13,5 @@ footer_text: "Page design by Ankit Sultana"
 sass:
     style: compressed
     sass_dir: _sass
+
+twitter_username: eduardodx
