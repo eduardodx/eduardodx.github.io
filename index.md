@@ -36,7 +36,4 @@ My advisor is [Celso Camilo-Junior](http://www.inf.ufg.br/~celso/) and my resear
 * [Twitter](https://twitter.com/eduardodx)
 * [GitHub](https://github.com/eduardodx)
 
-
-\\
-\\
-\\
+&nbsp;
