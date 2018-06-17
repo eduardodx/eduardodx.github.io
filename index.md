@@ -6,8 +6,24 @@ layout: default
 
 <img class="profile-picture" src="eduardodx.jpg">
 
-I'm a master student at [I4Soft](http://i4soft.com.br), [Universidade Federal de Goiás](https://www.ufg.br), Brazil.
-My advisor is [Celso Camilo-Junior](http://www.inf.ufg.br/~celso/) and my research is focused in Computational Intelligence and Automated Program Repair. I hold a Computer Science bachelor from the same university where I'm doing my master's research.
+I'm a master student at [I4Soft](http://i4soft.com.br){:target="_blank"}, [Universidade Federal de Goiás](https://www.ufg.br){:target="_blank"}, Brazil.
+My advisor is [Celso Camilo-Junior](http://www.inf.ufg.br/~celso/){:target="_blank"} and my research is focused in Computational Intelligence and Automated Program Repair. I hold a Computer Science bachelor from the same university where I'm doing my master's research.
+
+<!-- ## Posts
+
+{% for post in site.categories[page.category] %}
+    <a href="{{ post.url | absolute_url }}">
+      {{ post.title }}
+    </a>
+{% endfor %}
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href=".{{ post.url }}">{{ post.url }} -- {{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul> -->
 
 
 ## Publications
