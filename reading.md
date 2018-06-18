@@ -8,9 +8,9 @@ This is a list of the books I've read and those I'm currently reading.
 
 ## 2018
 
-- _[Reading]_ Maus: A Survivor's Tale, _by Art Spiegelman e Fred Jordon_
-- Ouça a Canção do Vento & Pinball. 1973, _by Haruki Murakami_
-- Elon Musk, _by Ashlee Vance_
+- _[Reading]_ __Maus: A Survivor's Tale__, by Art Spiegelman e Fred Jordon
+- __Ouça a Canção do Vento & Pinball. 1973__, by Haruki Murakami
+- __Elon Musk__, by Ashlee Vance
 
 ### From the beginning until 2018
 
