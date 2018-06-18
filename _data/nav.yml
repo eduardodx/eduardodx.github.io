@@ -1,8 +1,8 @@
-# - name: "Contact"
-#  link: "contact"
+- name: "Now"
+  link: "now.html"
 
-# - name: "Resume"
-#  link: "resume.pdf"
+- name: "Reading"
+  link: "reading.html"
 
-# - name: "About"
-#  link: "index.html"
+- name: "About"
+  link: "index.html"
