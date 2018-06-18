@@ -6,7 +6,7 @@ layout: default
 
 I'm at Goiânia (BRA).
 
-I'm taking the last three courses that my MSc requires and starting a 
+I'm taking the last three courses that my MSc requires and I'm starting a 
 new research project. Also, I'm packing to travel to Japan next month
 to attend to GECCO 2018.
 
