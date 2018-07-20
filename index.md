@@ -29,10 +29,12 @@ My advisor is [Celso Camilo-Junior](http://www.inf.ufg.br/~celso/){:target="_bla
 ## Publications
 
 1. **A Novel Fitness Function for Automated Program Repair Based on Source Code Checkpoints** \\
-    *Eduardo Souza*, Claire Le Goues, Celso Camilo-Junior. GECCO 2018, Kyoto, Japan, Jul 2018.
+    *Eduardo Souza*, Claire Le Goues, Celso Camilo-Junior. GECCO 2018, Kyoto, Japan, Jul 2018. 
+    \[[paper]({{site.url}}./docs/souza-gecco18.pdf), [slides]({{site.url}}./docs/souza-gecco18-slides.pdf)\]
 
 1. **A new word embedding approach to evaluate potential fixes for automated program repair** \\
     Leonardo Amorim, Mateus Freitas, *Eduardo Souza*, Celso Camilo-Junior, Altino Dantas, Wellington Martins. IJCNN@WCCI 2018, Rio de Janeiro, Brazil, Jul 2018.
+    \[[paper]({{site.url}}./docs/amorim-ijcnn18.pdf)\]
 
 1. **Improved representation and genetic operators for linear genetic programming for automated program repair** \\
     Vinícius Oliveira, *Eduardo Souza*, Claire Le Goues, Celso Camilo-Junior. 
@@ -49,8 +51,8 @@ My advisor is [Celso Camilo-Junior](http://www.inf.ufg.br/~celso/){:target="_bla
 
 ## Congresses
 
-1. GECCO' 18 @ Kyoto, Japan. July 15th-19th 2018
-1. COMPSAC' 18 @ Tokyo, Japan. July 23th-27th 2018.
+1. **GECCO '18** @ Kyoto, Japan. July 15th-19th 2018
+1. **COMPSAC '18** @ Tokyo, Japan. July 23th-27th 2018.
 
 ## Social
 
