@@ -34,15 +34,12 @@ My advisor is [Celso Camilo-Junior](http://www.inf.ufg.br/~celso/){:target="_bla
 
 1. [IJCNN] **A new word embedding approach to evaluate potential fixes for automated program repair** \\
     Leonardo Amorim, Mateus Freitas, *Eduardo Souza*, Celso Camilo-Junior, Altino Dantas, Wellington Martins. IJCNN@WCCI 2018, Rio de Janeiro, Brazil, Jul 2018.
-    \[[paper]({{site.url}}./docs/amorim-ijcnn18.pdf)\]
 
 1. [COMPSAC] **Text Entry on Smartwatches: A Systematic Review of Literature** \\
     Mateus Luna, Fabrizzio Soares, Hugo Nascimento, Joyce Siqueira, Thamer Nascimento, *Eduardo Souza*, Ronaldo Costa. COMPSAC 2018, Tokyo, Japan, Jul 2018.
-    \[[paper]({{site.url}}./docs/luna-compsac18.pdf)\]
 
 1. [COMPSAC] **Interaction with Platform Games Using Smartwatches and Continuous Gesture Recognition: A Case Study** \\
     Thamer Nascimento, Fabrizzio Soares, Hugo Nascimento, Rogerio Salvini, Mateus Luna, Cristhiane Goncalves, *Eduardo Souza*. COMPSAC 2018, Tokyo, Japan, Jul 2018.
-    \[[paper]({{site.url}}./docs/nascimento-compsac18.pdf)\]
 
 1. [EMSE] **Improved representation and genetic operators for linear genetic programming for automated program repair** \\
     Vinícius Oliveira, *Eduardo Souza*, Claire Le Goues, Celso Camilo-Junior. 
