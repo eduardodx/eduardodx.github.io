@@ -1,8 +1,8 @@
-- name: "Now"
-  link: "now.html"
+# - name: "Now"
+#   link: "now.html"
 
-- name: "Reading"
-  link: "reading.html"
+# - name: "Reading"
+#   link: "reading.html"
 
 - name: "About"
   link: "index.html"
