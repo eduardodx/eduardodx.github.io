@@ -50,7 +50,7 @@ My advisor is [Celso Camilo-Junior](http://www.inf.ufg.br/~celso/){:target="_bla
     Vinícus Oliveira, *Eduardo Souza*, Altino Dantas, Lucas Roque, Celso Camilo-Junior. WESB@CBSoft 2017, Fortaleza, Brazil, Sep 2017.
     \[[paper]({{site.url}}./docs/oliveira-wesb17.pdf)\]
 
-1. [SBSE] **Improved Crossover Operators for Genetic Programming for Program Repair** \\
+1. [SSBSE] **Improved Crossover Operators for Genetic Programming for Program Repair** \\
     Vinícius Oliveira, *Eduardo Souza*, Claire Le Goues, Celso Camilo-Junior. SSBSE 2016, Raleigh, USA, Oct 2016.
     \[[paper]({{site.url}}./docs/oliveira-ssbse16.pdf)\]
 
