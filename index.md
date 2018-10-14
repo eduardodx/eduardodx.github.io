@@ -30,7 +30,7 @@ My advisor is [Celso Camilo-Junior](http://www.inf.ufg.br/~celso/){:target="_bla
 
 1. [GECCO] **A Novel Fitness Function for Automated Program Repair Based on Source Code Checkpoints** \\
     *Eduardo Souza*, Claire Le Goues, Celso Camilo-Junior. GECCO 2018, Kyoto, Japan, Jul 2018. 
-    \[[paper]({{site.url}}./docs/souza-gecco18.pdf), [slides]({{site.url}}./docs/souza-gecco18-slides.pdf)\]
+    \[[paper]({{site.url}}/docs/souza-gecco18.pdf), [slides]({{site.url}}/docs/souza-gecco18-slides.pdf)\]
 
 1. [IJCNN] **A new word embedding approach to evaluate potential fixes for automated program repair** \\
     Leonardo Amorim, Mateus Freitas, *Eduardo Souza*, Celso Camilo-Junior, Altino Dantas, Wellington Martins. IJCNN@WCCI 2018, Rio de Janeiro, Brazil, Jul 2018.

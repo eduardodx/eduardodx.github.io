@@ -4,5 +4,5 @@
 # - name: "Reading"
 #   link: "reading.html"
 
-- name: "About"
-  link: "index.html"
+# - name: "About"
+#   link: "index.html"

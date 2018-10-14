@@ -1,6 +1,6 @@
 title: Eduardo Souza
-# url: "https://eduardodx.net"
-baseurl: "."
+url: "http://eduardodx.net"
+baseurl: ""
 
 markdown: kramdown
 
