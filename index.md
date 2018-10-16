@@ -44,19 +44,19 @@ My advisor is [Celso Camilo-Junior](http://www.inf.ufg.br/~celso/){:target="_bla
 1. [EMSE] **Improved representation and genetic operators for linear genetic programming for automated program repair** \\
     Vinícius Oliveira, *Eduardo Souza*, Claire Le Goues, Celso Camilo-Junior. 
     Empirical Software Engineering, v. 22, p. 1-27, 2018.
-    \[[paper]({{site.url}}./docs/oliveira-emse18.pdf)\]
+    \[[paper]({{site.url}}/docs/oliveira-emse18.pdf)\]
 
 1. [WESB] **Ternarius: um operador de mutação para o reparo de software baseado em busca com representação subpatch** \\
     Vinícus Oliveira, *Eduardo Souza*, Altino Dantas, Lucas Roque, Celso Camilo-Junior. WESB@CBSoft 2017, Fortaleza, Brazil, Sep 2017.
-    \[[paper]({{site.url}}./docs/oliveira-wesb17.pdf)\]
+    \[[paper]({{site.url}}/docs/oliveira-wesb17.pdf)\]
 
 1. [SSBSE] **Improved Crossover Operators for Genetic Programming for Program Repair** \\
     Vinícius Oliveira, *Eduardo Souza*, Claire Le Goues, Celso Camilo-Junior. SSBSE 2016, Raleigh, USA, Oct 2016.
-    \[[paper]({{site.url}}./docs/oliveira-ssbse16.pdf)\]
+    \[[paper]({{site.url}}/docs/oliveira-ssbse16.pdf)\]
 
 1. [CONPEEX] **Um módulo para visualizar a evolução genotípica na ferramenta GenProg** \\
     *Eduardo Souza*, Cássio Rodrigues, Celso Camilo-Junior. CONPEEX 2016, Goiânia, Brazil, Oct 2016.
-    \[[paper]({{site.url}}./docs/souza-conpeex16.pdf)\]
+    \[[paper]({{site.url}}/docs/souza-conpeex16.pdf)\]
 
 ## Congresses
 

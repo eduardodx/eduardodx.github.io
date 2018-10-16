@@ -4,13 +4,9 @@ layout: default
 
 # Now
 
-I'm in Japan. I just attended GECCO and I'll be attending COMPSAC next week.
+I'm in Goiânia working on some experiments to an article.
 
-I've finished the compulsory courses for my masters and now I'll focus entirelly
-on my thesis.
-
-
-I'm watching the 4th season of Suits and the 1st of Queer Eye.
+I'm watching the 5th season of Breaking Bad.
 
 ---
 
