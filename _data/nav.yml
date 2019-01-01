@@ -1,8 +1,8 @@
-# - name: "Now"
-#   link: "now.html"
+- name: "Research"
+  link: "/research.html"
 
-# - name: "Reading"
-#   link: "reading.html"
+- name: "Blog"
+  link: "/index.html"
 
-# - name: "About"
-#   link: "index.html"
+
+

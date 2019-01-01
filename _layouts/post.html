@@ -72,8 +72,20 @@
 
         <div style="clear:both"></div>
 
-        <div class="container content">
-            {{ content }}
+        <div class="container content post">
+            <div class="post-header">
+                <span class="post-date">{{ page.date | date: "%Y.%m.%d" }}</span>
+                <h2 class="post-title">{{ page.title }}</h2>
+                <ul class="post-tags">
+                    {% for tag in page.tags %}
+                        <li>#{{ tag }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="post-content">
+                {{ content }}
+            </div>
         </div> <!-- .container.content -->
     </div> <!-- .wrapper -->
 

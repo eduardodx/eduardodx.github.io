@@ -1,4 +1,7 @@
 @import "vars";
+@import "normalize";
+@import "fonts/PangramWeb/pangram";
+@import "fonts/Circular/circular";
 
 /*
  * Basic
@@ -9,12 +12,17 @@ html {
     margin: 0;
     padding: 0;
 }
+
 body {
     margin: 0;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Pangram', sans-serif;
     height: 100%;
-    // background: rgb(250, 250, 250);
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased;
+    background-color: rgb(254, 244, 236);
+    background-color: #FFFCF5;
 }
+
 a {
     text-decoration: none;
     color: $accent;
@@ -22,6 +30,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 hr {
     border: 0;
     height: 0;
@@ -35,8 +44,9 @@ hr {
 
 #author-name {
     font-size: 30px;
-    color: #272727;
+    color: rgb(240, 88, 84);
     display: inline-block;
+    font-family: 'PangramBlack', sans-serif;
 }
 .navbar {
     padding: 50px 0 50px 0;
@@ -71,6 +81,224 @@ hr {
 }
 .wrapper {
     min-height: 100%;
+}
+
+/* Posts */
+
+.posts-index {
+    display: flex; /* or inline-flex */
+
+    flex-flow: row wrap;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-between;
+}
+
+.post-index--item {
+    // width: 44%;
+    // background: rgb(41, 59, 65);
+    // background: #ccc;
+    margin-top: 2em;
+    // padding: 1.5em 1em;
+    color: rgb(155, 155, 155);
+    // text-align: center;
+    font-family: 'Pangram', sans-serif;
+    // min-height: 180px;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
+    // align-content: center;
+    width: 100%;
+
+    a {
+        color: #FC2F4D;
+        font-weight: bold;
+    }
+
+    .post-date {
+        display: block;
+        font-size: 12px;
+        font-weight: 300;
+        color: rgba(28, 98, 141, 0.6);
+        color: #69B8C2;
+    }
+
+    .post-title {
+        font-size: 24px;
+        font-family: 'PangramBlack', sans-serif;
+        // font-family: 'Circular', sans-serif;
+        text-rendering: geometricPrecision !important;
+        color: #FC2F4D;
+        display: block;
+        margin: 6px 0 8px 0;
+        // letter-spacing: 1px;
+        color: rgb(63, 9, 27) !important;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-smoothing: antialiased;
+    }
+
+    .post-excerpt {
+        font-size: 14px;
+        font-weight: lighter;
+    }
+
+    .post-tags {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+        font-weight: 300;
+        color: #0D9EFF;
+        color: #5F2A3A;
+
+        li { display: inline; }
+    }
+
+    // colors
+
+    // https://www.pennyskateboards.com/us/shop/by-size/penny-original-22-inch.html
+    &.penny-red-commet {
+        .post-title {
+            color: #FC2F4D;
+        }
+        .post-tags {
+            color: #0D9EFF;
+        }
+    }
+
+    &.penny-makana {
+        .post-title {
+            color: #6CE1EF;
+        }
+        .post-tags {
+            color: #4A4A4A;
+        }
+    }
+
+    &.penny-rasta {
+        .post-title {
+            color: #4A4A4A;
+        }
+        .post-tags {
+            color: #FC2F4D;
+        }
+    }
+
+    &.penny-cobalt {
+        .post-title {
+            color: #2E3670;
+        }
+        .post-tags {
+            color: #CB3A3C;
+        }
+    }
+
+    &.penny-peace-off {
+        .post-title {
+            color: #1A2332;
+        }
+        .post-tags {
+            color: #48A1CA;
+        }
+    }
+
+    &.penny-dreamland {
+        .post-title {
+            color: #CE9C70;
+        }
+        .post-tags {
+            color: #1E899D;
+        }
+    }
+
+    &.penny-battleship {
+        .post-title {
+            color: #A19A98;
+        }
+        .post-tags {
+            color: #843034;
+        }
+    }
+
+    &.penny-pegasus {
+        .post-title {
+            color: #65ACAD;
+        }
+        .post-tags {
+            color: #A3465C;
+        }
+    }
+}
+
+.bio {
+    font-family: "Merriweather", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(63, 9, 27);
+    -webkit-font-smoothing: antialiased;
+}
+
+.content {
+
+    a, a:visited {
+        color: #69B8C2;
+        font-weight: bold;
+        transition: all 0.5s ease;
+    }
+
+    a:hover {
+        color: #58939D;
+    }
+}
+
+.post {
+
+    .post-header {
+        text-align: center;
+        margin: 2em auto;
+
+        h1, h2, ul, li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        li { display: inline-block; }
+
+        h1, h2 {
+            font-family: 'PangramBlack', sans-serif;
+            // font-family: "Merriweather", sans-serif;
+            font-weight: 900;
+            color: rgb(63, 9, 27);
+            text-shadow: 2px 2px rgb(254, 211, 157);
+            font-size: 36px;
+        }
+
+        .post-date, .post-tags {
+            color: #5F2A3A;
+        }
+
+        .post-tags { margin-top: 1em; }
+    }
+
+    .post-content {
+        margin-bottom: 3em;
+
+        p {
+            width: 560px;
+            margin: 0 auto;
+            font-family: "Merriweather", sans-serif;
+            font-size: 16px;
+            line-height: 30px;
+            color: rgb(26, 26, 26);
+            color: rgb(63, 9, 27);
+            -webkit-font-smoothing: antialiased;
+            margin-bottom: 1em;
+        }
+    }
+
+
 }
 
 /* Mobile */

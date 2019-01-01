@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Eduardo Souza</title>
+    <title>Aqui jaz todas as imagens</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,7 +23,7 @@
     <!-- Facebook Open Graph -->
     <meta name="og:description" content="">
     <meta name="og:title" content="Eduardo Souza">
-    <meta name="og:url" content="http://localhost:4000/contact.html">
+    <meta name="og:url" content="http://localhost:4000/2018/12/31/aqui-jaz-todas-as-imagens.html">
     <meta name="og:type" content="article">
     
     
@@ -31,7 +31,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Eduardo Souza">
     <meta name="twitter:description" content="">
-    <meta name="twitter:url" content="http://localhost:4000/contact.html">
+    <meta name="twitter:url" content="http://localhost:4000/2018/12/31/aqui-jaz-todas-as-imagens.html">
     
         <meta name="twitter:image" content="">
     
@@ -58,14 +58,52 @@
 
         <div style="clear:both"></div>
 
-        <div class="container content">
-            <h2 id="social">Social</h2>
+        <div class="container content post">
+            <div class="post-header">
+                <span class="post-date">2018.12.31</span>
+                <h2 class="post-title">Aqui jaz todas as imagens</h2>
+                <ul class="post-tags">
+                    
+                        <li>#art</li>
+                    
+                </ul>
+            </div>
 
-<ol>
-  <li><a href="https://twitter.com/eduardodx">Twitter</a></li>
-  <li><a href="https://github.com/eduardodx">GitHub</a></li>
-</ol>
+            <div class="post-content">
+                <canvas id="canvas" width="700" height="525"></canvas>
 
+<script>
+(function() {
+    function main() {
+        var canvas = document.getElementById('canvas');
+        var ctx = canvas.getContext('2d');
+
+        for (let i = 0; i < 700; ++i) {
+            for (let j = 0; j < 525; ++j) {
+                let r = Math.floor(Math.random() * 255);
+                let g = Math.floor(Math.random() * 255);
+                let b = Math.floor(Math.random() * 255);
+                ctx.fillStyle = `rgba(${r}, ${g}, ${b})`;
+                ctx.fillRect(i, j, 1, 1);
+            }
+        }
+    };
+
+    function ready(fn) {
+        if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading"){
+            fn();
+        } else {
+            document.addEventListener('DOMContentLoaded', fn);
+        }
+    }
+
+    ready(main);
+})();
+
+</script>
+
+
+            </div>
         </div> <!-- .container.content -->
     </div> <!-- .wrapper -->
 
