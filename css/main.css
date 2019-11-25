@@ -12,7 +12,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-   html {
+html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
@@ -100,16 +100,67 @@ textarea {
 /* System Fonts as used by Medium and WordPress */
 body {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  background-color: rgb(242, 242, 242);
+}
+
+.main-wrapper {
+  position: relative;
+  height: 100vh;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  width: 80vw;
 }
 
 .text-center {
   text-align: center;
 }
 
+h1 {
+  padding: 1em 0 0.7em 0;
+  margin: 0;
+}
+
+.name {
+  padding: 0.5rem 0;
+  position: relative;
+  z-index : 1;
+}
+
+.name:after {
+  content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 5px;
+    background: #53a88e;
+    transform: scaleX(.25);
+    transform-origin: 0 0;
+    transition: all .4s;
+    box-sizing: border-box;
+    color: inherit;
+}
+
+a, a:visited {
+  color: #595959;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #404040;
+}
+
 li {
   list-style: none;
   display: inline-block;
   padding: 0 4px;
+  line-height: 2.2em;
 }
 
 ul {
