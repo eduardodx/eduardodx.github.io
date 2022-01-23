@@ -139,7 +139,7 @@ h1 {
     bottom: 0;
     height: 5px;
     background: #53a88e;
-    transform: scaleX(.25);
+    transform: scaleX(1);
     transform-origin: 0 0;
     transition: all .4s;
     box-sizing: border-box;
